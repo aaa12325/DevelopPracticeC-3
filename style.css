@@ -1,0 +1,319 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1,h2 {
+	padding: 20px 0;
+	text-align: center;
+}
+
+
+h3 {
+	padding: 50px 0;
+}
+
+hr {
+	margin-bottom: 20px;
+}
+
+ul {
+	list-style: none;
+	padding-left: 10px;
+}
+
+li {
+	padding: 5px;
+}
+
+form {
+	margin-bottom: 15px;
+}
+
+input[type="submit"] {
+	 padding: 1px 6px;
+	 margin-right:10px; /*小野追加*/
+	 margin-left:10px; /*小野追加*/
+}
+
+table {
+	margin: 10px auto 50px auto;
+	text-align: center;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+html,body {
+	height: 100%;
+	margin: 0;
+}
+
+#wrap {
+	position: relative;
+	min-height: 100%;
+	height: 100%;
+	height: auto !important;
+	margin: auto;
+}
+
+.container {
+	width: 850px;
+	margin: 0 auto;
+}
+
+
+header {
+	padding-top: 10px;
+	border-bottom: 6px solid #000;
+	text-align: center;
+}
+
+
+#menu {
+	position: relative;
+	padding: 10px;
+	border-bottom: 4px solid #000;
+}
+
+#user {
+	position: relative;
+	padding: 20px;
+	border-bottom: 4px solid #000;
+}
+
+
+#main {
+	margin: 0 auto;
+	padding-top: 40px;
+	padding-bottom: 250px;
+	text-align: center;
+}
+
+
+footer {
+	position: absolute;
+	width: 100%;
+	height: 120px;
+	bottom: 0px;
+	border-top: 4px solid #000;
+}
+
+
+#nav {
+	position: absolute;
+	top: 23px;
+	width: 285px;
+}
+
+#nav li {
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#page_title {}
+	text-align: center;
+}
+#user_title {
+	text-align: center;
+}
+#user_title h2{
+	padding: 0px;
+	text-align: center;
+}
+
+#user_info {
+	position: absolute;
+	width: 200px;
+	margin-left: 600px;
+	bottom: 10px;
+    margin-right: 0px;
+
+}
+
+table th {
+	width: 150px;
+	background-color: #0ff;
+}
+table td {
+	width: 150px;
+}
+.total-price-table td{
+	width: 150px;
+	background-color: #fff;
+}
+
+.detail-table td{
+	width: 150px;
+	background-color: #0ff;
+}
+
+.input-table td.cole {
+	width: 150px;
+	background-color: #a2fdbd;
+}
+
+.input-table th.tai {
+	width: 150px;
+	background-color: #fff;
+	color: #f00;
+}
+
+.list-table {
+	width: 100%;
+}
+
+.detail-table {
+	width: 40%;
+}
+
+.list-table tr td {
+	background-color: #E0FFFF;
+}
+
+.input-table tr td {
+	background-color: #E0FFFF;
+}
+
+.input-table input[type="text"] {
+	width: 100%;
+}
+
+.total-price-table {
+	width: 300px;
+	margin-right: 100px;
+}
+
+.buy-button {
+	width: 200px;
+	margin-left: auto;
+}
+
+.link li {
+	margin-bottom: 20px;
+}
+
+.error-msg {
+	text-align: center;
+}
+
+.back-link {
+	margin-top: 100px;
+	text-align: center;
+}
+
+spa{
+	margin-right: 30px;
+}
+
+/*小野追加分*/
+
+.left{
+	text-align:left;
+}
+
+.right{
+	text-align:right;
+}
+
+.allOrders_container {
+	width: 1050px;
+	margin: 0 auto;
+}
+
+.orderDay{
+	width:250px;
+}
+
+table.detail{
+	width:100%;
+	border-collupse:separate;
+	border-spacing: 10px 20px;
+	margin-bottom:20px;
+	table-layout:fixed;
+}
+
+table.detail td{
+	overflow-wrap:break-word;
+}
+
+.delete_button{
+	margin-top:150px;
+	color:red;
+}
+
+.button{
+	width:100px;
+	height:40px;
+}
+
+.select{
+	width:100px;
+	height:40px;
+	font-size:15px;
+}
+
+table.send{
+	width:50%;
+	border-collupse:separate;
+	border-spacing: 10px 20px;
+}
+
+.detail_h{
+	text-align:left;
+	font-weight: bolder;
+}
+
+//長野追加分
+.style{
+	text-align: left;
+}
+
+.insertIntoCart-table {
+	width: 800px;
+}
+
+.list{
+	width: 1000px;
+}
+
+.detail{
+	margin-left: 300px;
+}
+.detail-th{
+	width:23%;
+}
+
+/*以下長田作成CSS*/
+#menu_master {
+	position: relative;
+	padding: 10px;
+	border-bottom: 4px solid #00ff80;
+}
+#master_header {
+	padding-top: 10px;
+	border-bottom: 6px solid #00ff80;
+	text-align: center;
+}
+#master_footer {
+	position: absolute;
+	width: 100%;
+	height: 120px;
+	bottom: 0px;
+	border-top: 4px solid #00ff80;
+}
+#user_header {
+	padding-top: 10px;
+	border-bottom: 6px solid #000000;
+	text-align: center;
+}
+#user_footer {
+	position: absolute;
+	width: 100%;
+	height: 120px;
+	bottom: 0px;
+	border-top: 4px solid #000000;
+}
+
